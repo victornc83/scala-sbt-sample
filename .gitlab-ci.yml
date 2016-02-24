@@ -1,5 +1,5 @@
 variables:
-  SBT_VERSION: 0.13.10
+  SBT_VERSION: 0.13.9
 
 before_script:
   # Install SBT
