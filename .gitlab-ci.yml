@@ -1,5 +1,3 @@
-image: java:8
-
 before_script:
   # Install SBT
   - echo "deb http://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list
