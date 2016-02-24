@@ -1,5 +1,7 @@
 # Sample Scala/SBT application
 
+[![Build Status](https://gitlab.com/jasperdenkers/scala-sbt-sample-app/badges/master/build.svg)](https://gitlab.com/jasperdenkers/scala-sbt-sample-app/badges/master/build.svg)
+
 A sample application to demonstrate Scala/SBT continuous integration in Gitlab.
 
 ## Versions
