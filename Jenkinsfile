@@ -7,7 +7,8 @@ def version = env.CHANGE_ID
 pipeline {
     agent { label 'java8' }
     environment {
-
+        SBT_HOME = tool name: 'ADOP sbt', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'
+        PATH = "${env.SBT_HOME}/bin:${env.PATH}"
     }
     stages{
         stage("Git Checkout"){
