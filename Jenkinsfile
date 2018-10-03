@@ -31,7 +31,7 @@ pipeline {
         }
         stage("Publishing covarage reports"){
             steps{
-                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'target/scala-2.11/scoverage-report', reportFiles: 'index.html', reportName: 'SBT Coverage report', reportTitles: ''])
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'target/scala-2.11/scoverage-report', reportFiles: 'overview.html', reportName: 'SBT Coverage report', reportTitles: ''])
             }
         }
     }
